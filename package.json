@@ -1,0 +1,22 @@
+{
+  "name": "botdiscord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codoman/BotDiscord.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codoman/BotDiscord/issues"
+  },
+  "homepage": "https://github.com/Codoman/BotDiscord#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
