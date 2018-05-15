@@ -1,6 +1,7 @@
 const Discord = require('discord.js')
-const bot = new Discord.Client()
 const Google = require('./commands/google')
+
+const bot = new Discord.Client()
 
 
 bot.on('ready', () => {
@@ -21,4 +22,4 @@ bot.on('message', (message) => {
         message.reply('pong')
 })
 
-bot.login('NDQ2MDExNDAwNzA0MzYwNDQ4.DdzAkw.mdtSSVz_xAkWneJLvwONE6vKqE0')
+bot.login('') // add Bot Token
